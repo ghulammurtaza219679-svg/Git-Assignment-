@@ -219,6 +219,7 @@ button:hover{
     }
     .card{
     width: 100%;
+    grid-template-columns: repeat(1,1fr,1fr,1fr,1fr);
     }
     .about{
     text-align: center;
@@ -238,7 +239,8 @@ button:hover{
 }
 @media (max-width: 1270px){
     .card{
-        width: 23%;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
     }
     .product-cards{
         justify-content: space-between;
